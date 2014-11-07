@@ -6,18 +6,17 @@ function Bike (name, type, color) {
   this.condition = 'ready to go!';
 }
 
-// methods
-Bike.prototype = {
-  constructor: Bike,
-  wheels: 2,
-  takeForARide: function(miles){
-    if (miles > 50) {
-      this.condition = 'needs a tune up';
-    }
-  },
-  tuneUp: function(){
-    if (this.condition == 'needs a tune up'){
-      this.condition = 'ready to go!';
-    }
+// instance methods
+Bike.prototype.takeForARide = function(miles){
+  if (miles > 50) {
+    this.condition = 'needs a tune up';
   }
 };
+
+Bike.prototype.tuneUp = function(){
+  if (this.condition == 'needs a tune up'){
+    this.condition = 'ready to go!';
+  }
+};
+
+Bike.prototype.WHEELS = 2;
