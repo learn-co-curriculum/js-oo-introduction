@@ -1,5 +1,3 @@
-
-
 # JavaScript OO Introduction
 
 ## Objective
