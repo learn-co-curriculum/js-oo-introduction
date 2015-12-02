@@ -69,3 +69,5 @@ learn -b # runs also in the browser
 ## Resources
 
 [javascriptissexy.com — "JavaScript Objects in Detail"](http://javascriptissexy.com/javascript-objects-in-detail/)
+
+<a href='https://learn.co/lessons/js-oo-introduction' data-visibility='hidden'>View this lesson on Learn.co</a>
